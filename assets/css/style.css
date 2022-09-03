@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner {
+    background-image: url(../images/banner/gallery-big-04.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner nav{
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    /* position: sticky;
+    top: 0;
+    z-index: 100; */
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.banner a {
+    font-weight: bold;
+    color: white;
+    /* opacity: 0.7; */
+}
+nav .navbar-brand:hover{
+    color: white;
+}
+
+nav .navbar-nav a:hover {
+ opacity: 1;
+ border-bottom: 1px solid white;
+ color: white;
+}
+
+.banner nav button{
+  border: none;
+}
+
+#input{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+}
+#header-form{
+    margin-top: 11rem;
+}
+/* about */
+
+
+
+/* description */
+
+
+#desc-banner{
+    background-image: url(../images/banner/bg-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.description .btn{
+    background-color: white;
+}
+/* .desc-ban-color{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+} */
+
+/* desgin stats */
+#desgin-stats i{
+    font-size: 4rem;
+}
+
+
+/* gallery */
+
+#gallery-btn button{
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 100%;
+}
+
+
+/* pricing */
+#pricing #pricing-card-2:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+#pricing #pricing-card-3:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+#pricing #pricing-card-4:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+/* faq */
+
+#faqinput{
+    outline: none;
+    border: none;
+    /* padding: 10px 20px; */
+}
+
+#faq-btn button{
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 100%;
+}
+#faq-banner{
+    background-image: url(../images/banner/gallery-big-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#faq .icon i{
+    font-size: 4rem;
+}
+
+/* contact */
+#contactinput{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-bottom:2px solid gray ; opacity: 0.5;
+}
+#contactarea{
+    outline: none;
+    border: none;
+    border-bottom:2px solid gray ; opacity: 0.5;
+    
+}
+
+
+
+/* footer */
+.footerbanner {
+    background-image: url(../images/banner/gallery-big-04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* font-family: 'Montserrat', sans-serif; */
+
+@media screen and (max-width:768px){
+    #header-form{
+        margin-top: 5rem;
+    } 
+    .check-marks p{
+        margin-bottom: 0.7rem !important;
+    }
+    #desgin-stats{
+        padding-top:1.5rem !important;
+        padding-bottom:1.5rem !important;
+    }
+    #desgin-stats i{
+        font-size: 2.5rem;
+    }
+
+    #desgin-first{
+        padding-bottom: 0.8rem !important;
+        margin-bottom: 0.8rem !important;
+    }
+    #desgin-first-tab{
+        padding-top:1rem ;
+    }
+    #desgin-first-span{
+        padding-top:1.5rem !important;
+        padding-bottom:1.5rem !important;
+    }
+    #desgin-first-span b{
+        font-size: 0.5rem;
+    }
+
+    #desgin-second{
+        padding-top: 0.8rem !important;
+        margin-top: 0.8rem !important;
+    }
+    #desgin-second-tab{
+        padding-bottom:2rem ;
+    }
+    #desgin-second-span{
+        padding-top:1.5rem !important;
+        padding-bottom:1.5rem !important;
+    }
+    #desgin-second{
+        padding-bottom: 2rem !important;
+        margin-bottom: 2rem !important;
+    }
+    #desgin-second-span b{
+        font-size: 0.5rem;
+    }
+    #gallery-btn button{
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 100%;
+    }
+    #faq h2{
+        font-size: 1rem;
+    }
+    #faq .icon i{
+        font-size: 3rem;
+    }
+  
+    #pricing{
+        margin-top: 0rem !important;
+    }
+
+}
